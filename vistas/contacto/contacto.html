@@ -23,16 +23,16 @@
         <main>
             <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
-                <input class="input-padre" id="nombreapellido" type="text">
+                <input class="input-padre" id="nombreapellido" type="text" required>
 
                 <label for="correoelectronico">Correo Electrónico</label>
-                <input class="input-padre" id="correoelectronico" type="email">
+                <input class="input-padre" id="correoelectronico" type="email" required placeholder="email@dominio.com">
 
                 <label for="telefono">Teléfono</label>
-                <input class="input-padre" id="telefono" type="tel">
+                <input class="input-padre" id="telefono" type="tel" required placeholder="(XX) XXXX XXXX">
 
                 <label for="mensaje">Mensaje</label>
-                <textarea class="input-padre" id="mensaje" cols="70" rows="10"></textarea>
+                <textarea class="input-padre" id="mensaje" cols="70" rows="10" required></textarea>
 
                 <div>
                     <p>¿Cómo le gustaría que lo contactemos?</p>
@@ -41,7 +41,7 @@
                     
                     <label for="radio-telefono"><input id="radio-telefono" name="contacto" type="radio" value="telefono">Teléfono</label>
     
-                    <label for="radio-whatsapp"><input id="radio-whatsapp" name="contacto" type="radio" value="whatsapp">WhatsApp</label>
+                    <label for="radio-whatsapp"><input id="radio-whatsapp" name="contacto" type="radio" value="whatsapp" checked>WhatsApp</label>
                     
                 </div>
 
@@ -54,7 +54,7 @@
                     </select>
                 </div>
 
-                <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la Barbería Alura?</label>
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
 
                 <input type="submit" value="Enviar Formulario">
             </form>
