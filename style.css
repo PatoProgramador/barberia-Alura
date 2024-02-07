@@ -233,6 +233,7 @@ td, th {
 .diferencialesimage {
     width: 60%;
     transition: 1s;
+    box-shadow: 10px 10px 30px #000000;
 }
 
 .diferencialesimage:hover {
